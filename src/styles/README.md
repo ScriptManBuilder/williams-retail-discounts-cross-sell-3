@@ -57,15 +57,16 @@ import {
 - Desktop: `@media (min-width: 1025px)`
 
 ### Цвета
-Основные цвета проекта (Travel Perks Purple Theme):
-- Primary Purple: `#7C3AED`
-- Deep Purple: `#6D28D9`
-- Light Purple: `#C084FC`
-- Dark Purple (bg): `#1E1B4B`
-- Dark Purple (accent): `#4C1D95`
+Основные цвета проекта (Retail Discounts Green Emerald Theme):
+- Primary Green: `#10B981`
+- Dark Green: `#059669`
+- Light Green: `#6EE7B7`
+- Very Dark Green: `#064E3B`
+- Medium Green: `#047857`
 - Text: `#1a1a1a`
 - Text Light: `#666`
 - Background: `#f8f9fa`
+- Footer Background: `#1a1a2e` / `#16213e` (neutral dark)
 
 ### Анимации
 Используйте consistent timing:

@@ -1,6 +1,6 @@
 {
-  "short_name": "Williams Travel",
-  "name": "Williams Travel Perks - Exclusive Travel Membership",
+  "short_name": "Williams Retail",
+  "name": "Williams Retail Discounts - Exclusive Shopping Membership",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#7C3AED",
+  "theme_color": "#10B981",
   "background_color": "#ffffff"
 }
