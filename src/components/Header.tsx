@@ -65,10 +65,10 @@ const Header: React.FC = () => {
       <Nav>
         <Logo onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>
           <svg viewBox="0 0 24 24" fill="currentColor">
-            <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5zm0 18c-3.86-.96-7-5.17-7-9V8.33L12 4.5l7 3.83V11c0 3.83-3.14 8.04-7 9z"/>
-            <path d="M10.5 13.5l-2-2-1.5 1.5 3.5 3.5 6-6-1.5-1.5z"/>
+            <path d="M21 7.28V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-2.28c.59-.35 1-.98 1-1.72V9c0-.74-.41-1.37-1-1.72zM20 9v6h-7V9h7zM5 19V5h14v2h-6c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h6v2H5z"/>
+            <circle cx="16" cy="12" r="1.5"/>
           </svg>
-          {process.env.REACT_APP_COMPANY_NAME?.split(' Inc.')[0] || 'Williams Retail Discounts'}
+          {process.env.REACT_APP_BRAND_NAME || 'Retavix'}
         </Logo>
         <NavLinks>
           <NavLink href="#features" onClick={(e) => handleNavClick(e, '#features')}>Features</NavLink>
