@@ -136,7 +136,7 @@ const Footer: React.FC = () => {
         </FooterGrid>
 
         <FooterBottom>
-          <p>&copy; {new Date().getFullYear()} {companyName}. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} {companyName} All rights reserved.</p>
           <p>Do you not recognize a charge on your bank statement? We can help to resolve your query quickly and efficiently.</p>
         </FooterBottom>
       </FooterContent>
