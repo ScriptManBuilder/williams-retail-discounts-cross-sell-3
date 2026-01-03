@@ -58,9 +58,12 @@ const DataSubjectRequestPage: React.FC = () => {
             <LegalParagraph style={{ fontWeight: 600 }}>
               Phone: {process.env.REACT_APP_PHONE_DISPLAY}
             </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600 }}>
-              Address: {process.env.REACT_APP_COMPANY_ADDRESS}
-            </LegalParagraph>
+            <div style={{ marginTop: '1rem', marginBottom: '1rem' }}>
+              <img 
+                src="/company_adress.png" 
+                style={{ maxWidth: '100%', height: 'auto', display: 'block' }}
+              />
+            </div>
           </LegalSection>
 
           <LegalSection>

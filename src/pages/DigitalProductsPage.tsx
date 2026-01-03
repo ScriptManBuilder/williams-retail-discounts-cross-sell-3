@@ -26,8 +26,7 @@ const DigitalProductsPage: React.FC = () => {
           <LegalSection>
             <LegalSectionTitle>Introduction</LegalSectionTitle>
             <LegalParagraph>
-              This Digital Products Policy governs your purchase and use of digital products and services offered by 
-              {process.env.REACT_APP_COMPANY_NAME}. By purchasing or accessing our digital products, you agree to the 
+              This Digital Products Policy governs your purchase and use of digital products and services offered by               {process.env.REACT_APP_COMPANY_NAME}. By purchasing or accessing our digital products, you agree to the 
               terms outlined in this policy.
             </LegalParagraph>
             <LegalParagraph>
@@ -346,18 +345,12 @@ const DigitalProductsPage: React.FC = () => {
             <LegalParagraph>
               For questions about our digital products or this policy, contact:
             </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600, marginTop: '1rem' }}>
-              {process.env.REACT_APP_COMPANY_NAME}
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600 }}>
-              {process.env.REACT_APP_COMPANY_ADDRESS}
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600 }}>
-              Email: {process.env.REACT_APP_EMAIL_SUPPORT}
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600 }}>
-              Phone: {process.env.REACT_APP_PHONE_DISPLAY}
-            </LegalParagraph>
+            <div style={{ marginTop: '1.5rem', marginBottom: '1.5rem' }}>
+              <img 
+                src="/company_info.png"                
+                style={{ maxWidth: '100%', height: 'auto', display: 'block' }}
+              />
+            </div>
             <LegalParagraph style={{ marginTop: '1.5rem', fontSize: '0.875rem', color: '#5a6c7d' }}>
               Last Updated: {new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}
             </LegalParagraph>

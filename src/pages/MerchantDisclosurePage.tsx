@@ -33,24 +33,12 @@ const MerchantDisclosurePage: React.FC = () => {
             <LegalParagraph style={{ fontWeight: 600, marginTop: '1.5rem' }}>
               Legal Business Name:
             </LegalParagraph>
-            <LegalParagraph>
-              {process.env.REACT_APP_COMPANY_NAME}
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600, marginTop: '1rem' }}>
-              Business Address:
-            </LegalParagraph>
-            <LegalParagraph>
-              {process.env.REACT_APP_COMPANY_ADDRESS}
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600, marginTop: '1rem' }}>
-              Contact Information:
-            </LegalParagraph>
-            <LegalParagraph>
-              Phone: {process.env.REACT_APP_PHONE_DISPLAY}
-            </LegalParagraph>
-            <LegalParagraph>
-              Email: {process.env.REACT_APP_EMAIL_SUPPORT}
-            </LegalParagraph>
+            <div style={{ marginTop: '1.5rem', marginBottom: '1.5rem' }}>
+              <img 
+                src="/company_info.png"                
+                style={{ maxWidth: '100%', height: 'auto', display: 'block' }}
+              />
+            </div>
             <LegalParagraph style={{ fontWeight: 600, marginTop: '1rem' }}>
               Business Hours:
             </LegalParagraph>
@@ -99,10 +87,10 @@ const MerchantDisclosurePage: React.FC = () => {
             </LegalParagraph>
             <LegalList>
               <LegalListItem>
-                <strong>Primary Descriptor:</strong> "WILLIAMS RETAIL" or "WMS*[Retail Service]"
+                <strong>Primary Descriptor:</strong> "WS" or "WMS*[Retail Service]"
               </LegalListItem>
               <LegalListItem>
-                <strong>Alternative Descriptors:</strong> May include "WILLIAMS DISCOUNTS" or retailer names for specific purchases
+                <strong>Alternative Descriptors:</strong> May include "WS" or retailer names for specific purchases
               </LegalListItem>
               <LegalListItem>
                 <strong>Phone Number:</strong> {process.env.REACT_APP_PHONE_DISPLAY} will appear on your statement for customer service inquiries
@@ -283,8 +271,7 @@ const MerchantDisclosurePage: React.FC = () => {
             </LegalParagraph>
             <LegalList>
               <LegalListItem>
-                <strong>Step 1 - Contact Us:</strong> Reach out to our customer service team at {process.env.REACT_APP_EMAIL_SUPPORT} 
-                or {process.env.REACT_APP_PHONE_DISPLAY} with your concerns
+                <strong>Step 1 - Contact Us:</strong> Reach out to our customer service team at {process.env.REACT_APP_EMAIL_SUPPORT}                 or {process.env.REACT_APP_PHONE_DISPLAY} with your concerns
               </LegalListItem>
               <LegalListItem>
                 <strong>Step 2 - Investigation:</strong> We will investigate your dispute and respond within 5-7 business days
@@ -432,21 +419,15 @@ const MerchantDisclosurePage: React.FC = () => {
             <LegalParagraph>
               For any questions about this Service Disclosure or our retail discount services:
             </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600, marginTop: '1rem' }}>
+            {/* <LegalParagraph style={{ fontWeight: 600, marginTop: '1rem' }}>
               {process.env.REACT_APP_COMPANY_NAME}
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600 }}>
-              Attention: Customer Service Department
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600 }}>
-              {process.env.REACT_APP_COMPANY_ADDRESS}
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600 }}>
-              Email: {process.env.REACT_APP_EMAIL_SUPPORT}
-            </LegalParagraph>
-            <LegalParagraph style={{ fontWeight: 600 }}>
-              Phone: {process.env.REACT_APP_PHONE_DISPLAY}
-            </LegalParagraph>
+            </LegalParagraph> */}
+            <div style={{ marginTop: '1.5rem', marginBottom: '1.5rem' }}>
+              <img 
+                src="/company_info.png"                
+                style={{ maxWidth: '100%', height: 'auto', display: 'block' }}
+              />
+            </div>
             <LegalParagraph style={{ fontWeight: 600, marginTop: '1rem' }}>
               Business Hours: Monday - Friday, 9:00 AM - 6:00 PM EST
             </LegalParagraph>
